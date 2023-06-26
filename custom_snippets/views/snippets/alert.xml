@@ -1,0 +1,11 @@
+    <?xml version="1.0" encoding="UTF-8"?>
+    <odoo>
+        <data>
+            <template id="alert" name="Alert">
+                <section class="alert">
+                    <div id="liveAlertPlaceholder"></div>
+                    <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+                </section>
+            </template>
+        </data>
+    </odoo>

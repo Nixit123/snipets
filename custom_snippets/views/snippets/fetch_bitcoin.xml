@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="fetch_bitcoin" name="Fetch Bitcoin">
+            <section class="fetch-bitcoin">
+                <div class="container">
+                    <div class="row my-2">
+                        <div id="bitcoin-chart"/>
+                    </div>
+                </div>
+            </section>
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="accordion" name="Accordion">
+            <section class="accordion">
+                <div class="accordion accordion-flush" id="Spells">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SpellOne" aria-expanded="false" aria-controls="SpellOne">
+                        Ice knife
+                      </button>
+                    </h2>
+                    <div id="SpellOne" class="accordion-collapse collapse" data-bs-parent="#Spells">
+                      <div class="accordion-body">You shoot out a sharp piece of ice dealing 1d10 Cold DMG</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SpellTwo" aria-expanded="false" aria-controls="SpellTwo">
+                        Lightning bolt
+                      </button>
+                    </h2>
+                    <div id="SpellTwo" class="accordion-collapse collapse" data-bs-parent="#Spells">
+                      <div class="accordion-body">You shoot out a bolt of lightning dealing 1d10 Lightning DMG</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#SpellThree" aria-expanded="false" aria-controls="SpellThree">
+                        Fire bolt
+                      </button>
+                    </h2>
+                    <div id="SpellThree" class="accordion-collapse collapse" data-bs-parent="#Spells">
+                      <div class="accordion-body">You shoot out a small flaming sphere of ice dealing 1d10 fire DMG</div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+        </template>
+    </data>
+</odoo>

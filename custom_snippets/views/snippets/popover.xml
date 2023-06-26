@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="popover" name="Popover">
+            <section class="popover">
+                      <button type="button" class="btn btn-secondary"
+        data-bs-toggle="popover" data-bs-placement="right"
+        data-bs-custom-class="custom-popover"
+        data-bs-title="Congratulations"
+        data-bs-content="Fireballllllllllllllllllllllllllllllll">
+  Surprise spell
+</button>
+            </section>
+        </template>
+    </data>
+</odoo>

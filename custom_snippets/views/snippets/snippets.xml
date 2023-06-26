@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="custom_snippets" inherit_id="website.snippets" name="Custom Snippets">
+        <xpath expr="//div[@id='snippet_structure']" position="before">
+            <div id="snippet_structure" class="o_panel">
+                <div class="o_panel_header">Dynamic Custom Snippets</div>
+                <div class="o_panel_body">
+                    <t t-snippet="custom_snippets.explore_jobs"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>explore, jobs</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.fetch_bitcoin"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>fetch, bitcoin</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.navbar"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>navbar</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.alert"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>alert</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.accordion"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>accordion</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.badge"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>badge</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.breadcrumb"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>breadcrumb</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.buttons"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>buttons</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.popover"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>popover</keywords>
+                    </t>
+<!--                    <t t-snippet="custom_snippets.toast"-->
+<!--                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">-->
+<!--                        <keywords>toast</keywords>-->
+<!--                    </t>-->
+<!--                    <t t-snippet="custom_snippets.edit"-->
+<!--                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">-->
+<!--                        <keywords>edit</keywords>-->
+<!--                    </t>-->
+<!--                    <t t-snippet="custom_snippets.options"-->
+<!--                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">-->
+<!--                        <keywords>options</keywords>-->
+                    </t>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>
